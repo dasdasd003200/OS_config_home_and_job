@@ -59,12 +59,21 @@ LOG_LEVEL=INFO
 
 # Google OAuth2 Settings (para autenticación con Google)
 
+<<<<<<< HEAD
 GOOGLE_CLIENT_ID=**********************
 GOOGLE_CLIENT_SECRET=************************
 
 # #Google reCAPTCHA
 
 RECAPTCHA_SECRET_KEY=****************
+=======
+GOOGLE_CLIENT_ID=**********\*\*\*\***********
+GOOGLE_CLIENT_SECRET=**\*\*\***
+
+# #Google reCAPTCHA
+
+RECAPTCHA_SECRET_KEY=**\***
+>>>>>>> bdac24d (feat(globla): added config of projects and script)
 RECAPTCHA_MIN_SCORE=0.5
 
 # Frontend URL (en producción)
