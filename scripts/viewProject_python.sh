@@ -1,7 +1,8 @@
 #=============================================================
-# README
-# copiar el contenido en una archivo o directamente el archivo
-#para ejecutar chmod +x viewProject_python.sh
+#   README
+#   copiar el contenido en una archivo o directamente el archivo
+#   para ejecutar chmod +x viewProject_python.sh
+#   ./viewProject_python.sh
 #=============================================================
 
 #!/usr/bin/env bash
