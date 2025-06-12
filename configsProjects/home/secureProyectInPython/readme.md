@@ -16,7 +16,7 @@ nix-shell run.nix
 
 # MONGODB_USERNAME=emv-prod
 
-# MONGODB_PASSWORD=******
+# MONGODB_PASSWORD=**\*\***
 
 # MONGODB_REPLICA_SET=rs0
 
@@ -28,7 +28,7 @@ nix-shell run.nix
 
 # MONGODB_USERNAME=emv-prod
 
-# MONGODB_PASSWORD=********
+# MONGODB_PASSWORD=**\*\*\*\***
 
 # MONGODB_REPLICA_SET=rs0
 
@@ -37,13 +37,13 @@ nix-shell run.nix
 MONGODB_HOST=192.168.16.32
 MONGODB_PORT=27018
 MONGODB_USERNAME=emv-prod-admin
-MONGODB_PASSWORD=*****
+MONGODB_PASSWORD=**\***
 MONGODB_REPLICA_SET=rs0
 DATABASE_NAME=zSecure
 
 # JWT Settings (para autenticación)
 
-JWT_SECRET_KEY=*****
+JWT_SECRET_KEY=**\***
 JWT_ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 REFRESH_TOKEN_EXPIRE_DAYS=7
@@ -59,22 +59,19 @@ LOG_LEVEL=INFO
 
 # Google OAuth2 Settings (para autenticación con Google)
 
-<<<<<<< HEAD
-GOOGLE_CLIENT_ID=**********************
-GOOGLE_CLIENT_SECRET=************************
+GOOGLE_CLIENT_ID=****\*\*****\*\*****\*\*****
+GOOGLE_CLIENT_SECRET=****\*\*****\*\*\*\*****\*\*****
 
 # #Google reCAPTCHA
 
-RECAPTCHA_SECRET_KEY=****************
-=======
-GOOGLE_CLIENT_ID=**********\*\*\*\***********
+# RECAPTCHA_SECRET_KEY=**\*\***\*\*\*\***\*\***
+
+GOOGLE_CLIENT_ID=\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***
 GOOGLE_CLIENT_SECRET=**\*\*\***
 
 # #Google reCAPTCHA
 
 RECAPTCHA_SECRET_KEY=**\***
->>>>>>> bdac24d (feat(globla): added config of projects and script)
-RECAPTCHA_MIN_SCORE=0.5
 
 # Frontend URL (en producción)
 
