@@ -1,0 +1,57 @@
+# Guía Rápida - Crear Nuevo Repo
+
+## 1. Crear repo en GitHub
+- Ve a GitHub → New repository
+- Nombrar el repo
+- **NO** marcar "Add README"
+
+## 2. En tu proyecto local
+```bash
+# Inicializar
+git init
+
+# Configurar branch principal
+git branch -M main
+
+# Agregar archivos
+git add .
+
+# Commit inicial
+git commit -m "first commit"
+
+# Conectar con GitHub (IMPORTANTE: usar github-personal)
+git remote add origin github-personal:tu-usuario/tu-repo.git
+
+# Subir
+git push -u origin main
+```
+
+## 3. Cheat Sheet Rápido
+
+### Crear nuevo repo:
+```bash
+git init
+git branch -M main
+git add .
+git commit -m "first commit" 
+git remote add origin github-personal:dasdasd003200/NOMBRE-REPO.git
+git push -u origin main
+```
+
+### Trabajo diario:
+```bash
+git add .
+git commit -m "descripción"
+git push
+```
+
+### Verificar estado:
+```bash
+git status
+git remote -v
+```
+
+## ⚠️ IMPORTANTE
+- **SIEMPRE** usar `github-personal:` en lugar de `git@github.com:`
+- **SIEMPRE** usar `main` como branch principal
+- Crear repo en GitHub **sin** README inicialmente
